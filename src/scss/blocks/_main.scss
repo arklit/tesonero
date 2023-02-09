@@ -1,0 +1,87 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #E2E2E2;
+  height: 970px;
+  position: relative;
+
+  &__line {
+    background: #00C368;
+    height: 4px;
+    width: 184px;
+    margin-top: 75px;
+  }
+  &__parallax {
+    position: absolute;
+
+    &_1 {
+      bottom: 0;
+      left: 10px;
+    }
+    &_2 {
+      top: 0;
+      right: 10px;
+    }
+  }
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 280px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2E3A59;
+  }
+  &__box {
+    position: relative;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+    max-width: 176px;
+    position: absolute;
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #2E3A59;
+    }
+
+    &:first-of-type {
+      top: -158px;
+      left: 72px;
+    }
+    &:nth-of-type(2) {
+      top: -164px;
+      right: 72px;
+    }
+    &:nth-of-type(3) {
+      right: -121px;
+      top: 60px;
+    }
+    &:nth-of-type(4) {
+      right: 77px;
+      bottom: -64px;
+    }
+    &:nth-of-type(5) {
+      left: 50px;
+      bottom: -65px;
+    }
+    &:nth-of-type(6) {
+      left: -121px;
+      top: 60px;
+    }
+
+  }
+}
