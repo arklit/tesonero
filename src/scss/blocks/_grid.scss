@@ -1,4 +1,8 @@
 .grid {
   display: flex;
-  
+}
+@media screen and (max-width: 1024px) {
+  .grid {
+    flex-direction: column-reverse;
+  }
 }

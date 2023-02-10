@@ -1,5 +1,5 @@
 .review {
-  padding: 100px 70px;
+  padding: 103px 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,6 +64,10 @@
         bottom: 0;
         right: -1px
       }
+      &_grey {
+        display: none;
+      }
+      
     }
   }
   &-item {
@@ -95,6 +99,102 @@
       height: 97px;
       filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
       border-radius: 100px;
+    }
+  }
+}
+@media screen and (max-width: 1280px) {
+  .review {
+    padding: 103px 40px;
+    &-main {
+      gap: 10px;
+      &__img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+    &__items {
+      flex-direction: column;
+    }
+    &-item {
+      flex-direction: row-reverse;
+      gap: 15px;
+
+      &:last-of-type {
+        flex-direction: row;
+        gap: 15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .review {
+    width: 100%;
+    padding: 20px 16px;
+    
+    &-main {
+      gap: 50px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .review {
+    &__title {
+      font-size: 16px;
+      line-height: 19px;
+    }
+    &__items {
+      margin-top: 35px;
+    }
+    &-item {
+      &__img {
+        width: 59px;
+        height: 59px;
+      }
+    }
+    &-main {
+      position: relative;
+      padding: 80px 16px 15px;
+      flex-direction: column;
+      box-shadow: 0px 8px 16px rgba(0, 195, 104, 0.24);
+      border-radius: 32px;
+      margin-top: 91px;
+
+      &__text {
+        text-align: center;   
+        color: #2E3A59;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      &__content {
+        align-items: center;
+      }
+      &__author {
+        text-align: center;
+      }
+      &__img {
+        position: absolute;
+        z-index: 2;
+        width: 97px;
+        height: 97px;
+        top: -45px;
+      }
+      &__quotes {
+        display: none;
+
+        &_grey {
+          display: block;
+          position: absolute;
+
+          &_1 {
+            top: -62px;
+            left: 8px;
+          }
+          &_2 {
+            top: -62px;
+            right: 8px;
+          }
+        }
+      }
+
     }
   }
 }
