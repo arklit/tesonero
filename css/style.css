@@ -1296,7 +1296,7 @@ button.swiper-pagination-bullet {
 }
 
 .questions-item .active::after {
-  content: url("../../img/icons/icon-up.svg");
+  content: url("../img/icons/icon-up.svg");
 }
 
 .questions-item__change {
@@ -1328,7 +1328,7 @@ button.swiper-pagination-bullet {
 }
 
 .questions-item__title::after {
-  content: url("../../img/icons/icon-down.svg");
+  content: url("../img/icons/icon-down.svg");
   margin-left: auto;
 }
 
@@ -1679,7 +1679,7 @@ button.swiper-pagination-bullet {
   }
 
   .main .swiper .swiper-button-next:after {
-    content: url("../../img/icons/icon-right.svg");
+    content: url("../img/icons/icon-right.svg");
   }
 
   .main .swiper .swiper-button-prev {
@@ -1688,7 +1688,7 @@ button.swiper-pagination-bullet {
   }
 
   .main .swiper .swiper-button-prev:after {
-    content: url("../../img/icons/icon-left.svg");
+    content: url("../img/icons/icon-left.svg");
   }
 
   .questions__title {
