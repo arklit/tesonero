@@ -180,14 +180,14 @@
         right: 1px;
         top: 6px;
         &:after {
-          content: url('../../img/icons/icon-right.svg')
+          content: url('../img/icons/icon-right.svg')
         }
       }
       .swiper-button-prev {
         left: 1px;
         top: 6px;
         &:after {
-          content: url('../../img/icons/icon-left.svg')
+          content: url('../img/icons/icon-left.svg')
         }
       }
     }

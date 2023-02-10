@@ -56,7 +56,7 @@
     .active {
       color: #00C368;
       &::after {
-        content: url('../../img/icons/icon-up.svg');
+        content: url('../img/icons/icon-up.svg');
       }
     }
     &__change {
@@ -77,7 +77,7 @@
       cursor: pointer;
 
       &::after {
-        content: url('../../img/icons/icon-down.svg');
+        content: url('../img/icons/icon-down.svg');
         margin-left: auto;
       }
     }
